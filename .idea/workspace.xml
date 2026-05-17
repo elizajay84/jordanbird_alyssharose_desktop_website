@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8f0ddd82-8620-4219-ba8a-a495c9f0a111" name="Changes" comment="created new project folder">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/jordanbird_alyssharose_desktop_website/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jordanbird_alyssharose_desktop_website/.idea/dictionaries/project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jordanbird_alyssharose_desktop_website.iml" beforeDir="false" afterPath="$PROJECT_DIR$/jordanbird_alyssharose_desktop_website/.idea/jordanbird_alyssharose_desktop_website.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jordanbird_alyssharose_desktop_website/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jordanbird_alyssharose_desktop_website/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/webResources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jordanbird_alyssharose_desktop_website/.idea/webResources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/Manrope-Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/Manrope-ExtraBold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/Manrope-ExtraLight.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/Manrope-Light.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/Manrope-Medium.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/Manrope-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/Manrope-SemiBold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/Syne-Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/Syne-ExtraBold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/Syne-Medium.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/Syne-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/Syne-SemiBold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/Syne-VariableFont_wght.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/form.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Play Red.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Short List.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/bots_bots_bots.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/hamburger_menue.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/hipster_wonderland.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/jimmy_hero.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/jimpardy_thumbnail.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/lanes-cropped.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/punk_rock.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/shortl-list-logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/submit.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/user_avatar.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/watch_film.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/watch_now.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/watch_now_button_svg.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stylesheet.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/watch.html" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;elizajay84&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/elizajay84/jordanbird_alyssharose_desktop_website.git&quot;,
+    &quot;accountId&quot;: &quot;20b4c447-bb76-41e2-b57b-af06f68d7f7e&quot;
+  }
+}</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3Dp2yrWuHBEfjpJAHDMBIzJ7bh4" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "main",
+    "javascript.preferred.runtime.type.id": "node",
+    "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "/Users/alyssharosejordan/Desktop/U of MN 2026/gdes /jordanbird_alyssharose_desktop_website",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/jordanbird_alyssharose_desktop_website" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-WS-253.32098.39" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8f0ddd82-8620-4219-ba8a-a495c9f0a111" name="Changes" comment="" />
+      <created>1778964947683</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1778964947683</updated>
+      <workItem from="1778964948821" duration="21050000" />
+      <workItem from="1778989986920" duration="1701000" />
+    </task>
+    <task id="LOCAL-00001" summary="fixed images issues">
+      <option name="closed" value="true" />
+      <created>1778966372093</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1778966372093</updated>
+    </task>
+    <task id="LOCAL-00002" summary="fixed issue with images not showing up,">
+      <option name="closed" value="true" />
+      <created>1778972124266</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1778972124266</updated>
+    </task>
+    <task id="LOCAL-00003" summary="fixed issue with images not showing up,">
+      <option name="closed" value="true" />
+      <created>1778972127851</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1778972127851</updated>
+    </task>
+    <task id="LOCAL-00004" summary="fixed issue with images not showing up,">
+      <option name="closed" value="true" />
+      <created>1778972328897</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1778972328897</updated>
+    </task>
+    <task id="LOCAL-00005" summary="fixed issues with hero button, header, etc">
+      <option name="closed" value="true" />
+      <created>1778983296321</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1778983296321</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Copied from orginal folder" />
+    <MESSAGE value="fixed images issues" />
+    <MESSAGE value="fixed issue with images not showing up," />
+    <MESSAGE value="attempted to fix issue with nav bar. didn' succeed." />
+    <MESSAGE value="fixed issues with hero button, header, etc" />
+    <MESSAGE value="created new project folder" />
+    <option name="LAST_COMMIT_MESSAGE" value="created new project folder" />
+  </component>
+</project>

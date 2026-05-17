@@ -1,0 +1,453 @@
+
+@font-face {
+    font-family: 'Syne-Bold';
+    src: url('fonts/Syne-Bold.ttf');
+}
+@font-face {
+    font-family: 'Syne-ExtraBold';
+    src: url('fonts/Syne-ExtraBold.ttf');
+}
+@font-face {
+    font-family: 'Syne-Medium';
+    src: url('fonts/Syne-Medium.ttf');
+}
+@font-face {
+
+    font-family: 'Syne-Regular';
+    src: url('fonts/Syne-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Syne-SemiBold';
+    src: url('fonts/Syne-SemiBold.ttf');
+}
+
+@font-face {
+    font-family: 'Syne-VariableFont_wght';
+    src: url('fonts/Syne-VariableFont_wght.ttf');
+}
+
+@font-face {
+    font-family: 'Manrope-Regular';
+    src: url('fonts/Manrope-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Manrope-Medium';
+    src: url('fonts/Manrope-Medium.ttf');
+}
+@font-face {
+    font-family: 'Manrope-SemiBold';
+    src: url('fonts/Manrope-SemiBold.ttf');
+}
+@font-face {
+    font-family: 'Manrope-ExtraLight';
+    src: url('fonts/Manrope-ExtraLight.ttf');
+}
+@font-face {
+    font-family: 'Manrope-Light';
+    src: url('fonts/Manrope-Light.ttf');
+}
+body {
+    margin: 0;
+    background-color: #111827;
+}
+.container {
+    width: min(1440px, 100%);
+    padding: 12px;
+}
+.site-header {
+    background-color: #1F2937;
+    padding: 10px 24px;
+}
+
+.site-nav {
+   display: flex;
+    align-items: center;
+    justify-content: space-between;
+ width: 100%;
+    gap: 80px;
+}
+
+.nav-left img {
+    height: 18px;
+    width: auto;
+    display: block;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.nav-links a {
+    color: #e5e7eb;
+    font-family: 'Syne-SemiBold', serif;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 0;
+}
+
+.nav-links a.current-page {
+    font-weight: bold;
+    text-decoration: underline;
+    text-underline-offset: 4px;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+    text-underline-offset: 4px;
+}
+
+
+.hero {
+    margin: 0;
+}
+
+.hero-img {
+    height: 100vh;
+    position: relative;
+    background-image:
+            linear-gradient(180deg, rgba(17, 24, 39, 0.1) 0%, rgba(17, 24, 39, 0.85) 100%),
+            url(./jimmy_hero.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.featured-label {
+    position: absolute;
+    top: 30px;
+    left: 40px;
+    margin: 0;
+    font-family: 'Syne-Regular', sans-serif;
+    font-size: 55px;
+    text-transform: uppercase;
+    color: #f3f4f6;
+}
+
+.hero-text {
+    position: absolute;
+    left: 40px;
+    bottom: 40px;
+    color: #e5e7eb;
+    max-width: 600px;
+}
+
+.hero-text h1 {
+    font-family: 'Syne-Bold', sans-serif;
+    font-size: 64px;
+    margin: 0 0 24px;
+    text-transform: uppercase;
+}
+.hero-text h3 {
+    font-family: 'Manrope-Medium', sans-serif;
+    font-size: 20px;
+    margin: 0 0 16px;
+    color: #e5e7eb;
+}
+
+.hero-text p {
+    font-family: Manrope-Regular, sans-serif;
+    margin: 0 0 24px;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #F5F5F5;
+    max-width: 500px;
+}
+
+.card-meta {
+    font-family: 'Manrope-Light', sans-serif;
+    font-size: 14px;
+    color: #e5e7eb;
+    letter-spacing: 1px;
+}
+.custom-hero-button {
+    display: inline-block;
+    margin-top: 30px;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+    text-decoration: none;
+    background: none;
+    border: none;
+    padding: 0;
+}
+.custom-hero-button:hover {
+    transform: scale(1.08);
+    filter: drop-shadow(0px 0px 8px rgba(255, 255, 255, 0.4));
+}
+.custom-hero-button img {
+    height: 40px;
+    width: auto;
+}
+.popular-section {
+    width: 100%;
+    padding: 40px 24px 64px;
+    box-sizing: border-box;
+}
+
+.popular-inner {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.popular-heading {
+    color: #e5e7eb;
+    text-align: center;
+    font-family: 'Syne-Bold', sans-serif;
+    font-size: 32px;
+    margin: 0 0 24px;
+    line-height: 1.2;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 440px);
+    gap: 24px;
+    justify-content: center;
+}
+
+.card {
+    width: 100%;
+    max-width: 440px;
+    height: 592px;
+    overflow: hidden;
+    background: black;
+}
+
+.card-image {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+}
+
+.card-image::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 60%;
+    background: linear-gradient(to bottom, transparent, black);
+}
+
+.card-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.card-content {
+    height: 292px;
+    padding: 1rem;
+    box-sizing: border-box;
+    background: black;
+}
+
+.card-content h2 {
+    font-family: 'Syne-Bold', sans-serif;
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #e5e7eb;
+    margin: 0 0 4px;
+    padding: 0;
+}
+
+.card-content h3 {
+    color: #e5e7eb;
+    font-family: 'Syne-Medium', sans-serif;
+    font-size: 18px;
+    margin: 0 0 10px;
+    padding: 0;
+}
+
+.card-content p {
+    color: #e5e7eb;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    margin: 0 0 10px;
+    padding: 0;
+}
+
+
+
+/* ===== Watch page layout ===== */
+
+.watch-page .video-container {
+    position: relative;
+    width: 100%;
+    padding-top: 56.25%;
+}
+
+.watch-page .video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+.watch-page .synopsis {
+    padding: 0 20px;
+}
+
+.watch-page .film-title-bar h2 {
+    color: #e5e7eb;
+    font-family: Syne-se, sans-serif;
+    font-size: 36px;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0 20px;
+    }
+
+.watch-page .synopsis h2 {
+    color: #e5e7eb;
+    font-family: Syne-Medium, sans-serif;
+    font-size: 32px;
+    margin: 20px 0 8px 0;
+    text-align: left;
+}
+
+.watch-page .synopsis p {
+    color: #F5F5F5;
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    margin: 0 0 12px 0;
+}
+.watch-page .synopsis .label {
+    font-family: Syne-Medium, sans-serif;
+    color: #e5e7eb;
+}
+
+/* ===== forms page  layout ===== */
+
+body.form-page {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-page .form-container {
+    max-width: 640px;
+    margin: 60px auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+    flex: 1;
+}
+
+body.form-page .sit-title {
+    margin-top: auto;
+}
+.form-page .form-container h1 {
+    color: #e5e7eb;
+    font-family: Syne-ExtraBold, sans-serif;
+    font-size: 36px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+.form-page .form-subtitle {
+    color: #e5e7eb;
+    font-family: Syne-Medium, sans-serif;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 40px;
+    text-indent: 0;
+}
+
+.form-page .form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 24px;
+}
+
+.form-page .form-group label {
+    color: #e5e7eb;
+    font-family: Syne-Medium, sans-serif;
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+.form-page .form-group input {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    background-color: #e5e7eb;
+    border: none;
+    box-sizing: border-box;
+}
+
+.form-page .required {
+    color: #E63A2E;
+}
+
+.form-page form button {
+    display: block;
+    margin: 0 auto;
+    background-color: #e5e7eb;
+    color: black;
+    font-family: Syne-Medium, sans-serif;
+    font-size: 18px;
+    padding: 14px 40px;
+    border: 2px solid black;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.form-page form button:hover {
+    background-color: #E63A2E;
+    color: white;
+    border-color: #E63A2E;
+}
+body.form-page .site-footer {
+    margin-top: auto;
+}
+
+
+.site-footer {
+    background-color: #1F2937;
+    margin-top: 32px;
+}
+
+.site-footer .container {
+    min-height: 48px;
+    display: flex;
+    align-items: center;
+}
+
+.footer-content {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+}
+
+
+.footer-logo,
+.footer-trademark,
+.footer-spacer {
+    flex: 1;
+}
+
+.footer-trademark {
+    color: #e5e7eb;
+    font-family: 'Syne-Medium', sans-serif;
+    font-size: 13px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.footer-logo img {
+    height: 16px;
+    width: auto;
+    display: block;
+    opacity: 0.8;
+}
+
+

@@ -26,6 +26,28 @@
     font-family: 'Syne-VariableFont_wght';
     src: url('fonts/Syne-VariableFont_wght.ttf');
 }
+
+@font-face {
+    font-family: 'Manrope-Regular';
+    src: url('fonts/Manrope-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Manrope-Medium';
+    src: url('fonts/Manrope-Medium.ttf');
+}
+@font-face {
+    font-family: 'Manrope-SemiBold';
+    src: url('fonts/Manrope-SemiBold.ttf');
+}
+@font-face {
+    font-family: 'Manrope-ExtraLight';
+    src: url('fonts/Manrope-ExtraLight.ttf');
+}
+@font-face {
+    font-family: 'Manrope-Light';
+    src: url('fonts/Manrope-Light.ttf');
+}
 body {
     margin: 0;
     background-color: #111827;
@@ -36,61 +58,49 @@ body {
 }
 .site-header {
     background-color: #1F2937;
-
-
-/* ===== nav bar ===== */
+    padding: 10px 24px;
+}
 
 .site-nav {
-    min-height: 64px;
-    display: flex;
+   display: flex;
     align-items: center;
+    justify-content: space-between;
+ width: 100%;
+    gap: 80px;
 }
 
 .nav-left img {
-    height: 20px;
+    height: 18px;
     width: auto;
     display: block;
 }
 
-.nav-center {
+.nav-links {
     display: flex;
     align-items: center;
     gap: 16px;
-    margin-left: 24px;
 }
 
-.nav-center a {
-    color: white;
-    font-family: 'Syne-Bold', serif;
-    font-size: 20px;
-    padding: 15px;
+.nav-links a {
+    color: #e5e7eb;
+    font-family: 'Syne-SemiBold', serif;
+    font-size: 18px;
     text-decoration: none;
+    padding: 0;
 }
 
-.nav-center a.current-page {
+.nav-links a.current-page {
     font-weight: bold;
     text-decoration: underline;
+    text-underline-offset: 4px;
 }
 
-.nav-center a:hover {
+.nav-links a:hover {
     text-decoration: underline;
-}
-
-.nav-right {
-    display: flex;
-    align-items: center;
-    gap: 16px;
-    margin-left: auto;
-}
-
-.nav-right img {
-    height: 30px;
-    width: auto;
-    display: block;
+    text-underline-offset: 4px;
 }
 
 
-/* ===== home page ===== */
 .hero {
     margin: 0;
 }
@@ -108,11 +118,11 @@ body {
 
 .featured-label {
     position: absolute;
-    top: 60px;
+    top: 30px;
     left: 40px;
     margin: 0;
     font-family: 'Syne-Regular', sans-serif;
-    font-size: 27px;
+    font-size: 55px;
     text-transform: uppercase;
     color: #f3f4f6;
 }
@@ -121,50 +131,55 @@ body {
     position: absolute;
     left: 40px;
     bottom: 40px;
-    color: white;
+    color: #e5e7eb;
     max-width: 600px;
 }
 
 .hero-text h1 {
     font-family: 'Syne-Bold', sans-serif;
     font-size: 64px;
-    margin: 0 0 12px;
+    margin: 0 0 24px;
     text-transform: uppercase;
 }
 .hero-text h3 {
-    font-family: 'Syne-Medium', sans-serif;
-    font-size: 24px;
-    margin: 0 0 12px;
+    font-family: 'Manrope-Medium', sans-serif;
+    font-size: 20px;
+    margin: 0 0 16px;
+    color: #e5e7eb;
 }
 
 .hero-text p {
-    font-family: 'Syne-Regular', sans-serif;
-    margin: 0 0 12px;
+    font-family: Manrope-Regular, sans-serif;
+    margin: 0 0 24px;
     font-size: 16px;
+    line-height: 1.6;
+    color: #F5F5F5;
+    max-width: 500px;
 }
 
 .card-meta {
     font-family: 'Manrope-Light', sans-serif;
     font-size: 14px;
-    text-transform: uppercase;
+    color: #e5e7eb;
+    letter-spacing: 1px;
 }
-.hero-button {
-    display: inline-flex;
-    align-items: center;
-    gap: 10px;
-    background-color: #ffffff;
-    color: #111827;
-    font-family: 'Syne-Bold', sans-serif;
+.custom-hero-button {
+    display: inline-block;
+    margin-top: 30px;
+    transition: transform 0.3s ease;
+    cursor: pointer;
     text-decoration: none;
-    padding: 14px 22px;
-    text-transform: uppercase;
-    font-size: 14px;
-    margin-top: 50px;
+    background: none;
+    border: none;
+    padding: 0;
 }
-
-.hero-button::before {
-    content: "▶";
-    margin-right: 10px;
+.custom-hero-button:hover {
+    transform: scale(1.08);
+    filter: drop-shadow(0px 0px 8px rgba(255, 255, 255, 0.4));
+}
+.custom-hero-button img {
+    height: 40px;
+    width: auto;
 }
 .popular-section {
     width: 100%;
@@ -257,16 +272,7 @@ body {
     padding: 0;
 }
 
-.card-meta {
-    font-size: 11px;
-    font-family: 'Syne-Medium', sans-serif;
-    font-weight: 400;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    color: #e5e7eb;
-    margin: 0;
-    padding: 0;
-}
+
 
 /* ===== Watch page layout ===== */
 
@@ -449,9 +455,4 @@ body.form-page .site-footer {
     text-decoration: underline;
 }
 
-.site-footer p {
-    color: #9CA3AF;
-    font-family: 'Syne-Regular', sans-serif;
-    font-size: 12px;
-    margin: 0;
-}
+

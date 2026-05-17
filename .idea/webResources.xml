@@ -2,10 +2,10 @@
 <project version="4">
   <component name="WebResourcesPaths">
     <contentEntries>
-      <entry url="file://$PROJECT_DIR$/jordanbird_alyssharose_desktop_website">
+      <entry url="file://$PROJECT_DIR$">
         <entryData>
           <resourceRoots>
-            <path value="file://$PROJECT_DIR$/jordanbird_alyssharose_desktop_website/images" />
+            <path value="file://$PROJECT_DIR$/images" />
           </resourceRoots>
         </entryData>
       </entry>
